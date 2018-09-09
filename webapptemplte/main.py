@@ -2,6 +2,7 @@ from mongoengine import *
 
 connect('webapp')
 
+b = 1
 
 class User(Document):
     email = StringField(required=True)
